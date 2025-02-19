@@ -27,8 +27,8 @@
   }
   
   .ite img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 20px;
     opacity: 2;
@@ -95,13 +95,20 @@
     font-size: 16px;
   }
   @media screen and (max-width:1040px){
-    .item img{
-      width: 400px;
-      height: 400px;
+    .ite img{
+      width: 150px;
+      height: 200px;
+      padding: 0;
        
     } 
+    .item-containe {
+        width: 300px;
+    }
+    .ite {
+        width: 200px;
+    }
     .modal-content {
-      max-width: 500px;
+      max-width: 400px;
     }
     
    }

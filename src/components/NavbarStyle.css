@@ -43,7 +43,10 @@
     font-weight: 500;
 }
 @media screen and (max-width:1040px){
- .nav-menu {
+    .header {
+    justify-content: space-between; 
+    }
+   .nav-menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;

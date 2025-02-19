@@ -7,8 +7,8 @@
   cursor: pointer;
   display: inline-block;
   text-align: center;
-  margin: 15px;
-  padding: 10px;
+  /* margin: 15px;
+  padding: 10px; */
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -92,8 +92,16 @@
     height: 200px;
      
   } 
+  .item-container {
+    width: 100%;
+    height: fit-content;
+  }
+  .item {
+    width: 200px;
+  }
   .modal-content {
-    max-width: 400px;
+    max-width: 300px;
+    
   }
   
  }

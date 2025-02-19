@@ -86,7 +86,7 @@ ul {
     z-index: 1;
 }
 .akrwedit-container {
-    padding: 80px;
+    padding: 50px;
 }
 .akrwedit-container img {
     align-items: center;
@@ -94,14 +94,17 @@ ul {
 }
 @media screen and (max-width:1040px){
     .raspisaniya img{
-        width: 400px;
-        height: 300px;
+        width: 250px;
+        height: fit-content;
+        align-items: center;
+        padding: 0;
+        margin: 0;
     }
    
    }
    @media screen and (max-width:1040px){
     .akrwedit-container img{
-        width: 400px;
+        width: 200px;
         padding: 0;
         
     }
