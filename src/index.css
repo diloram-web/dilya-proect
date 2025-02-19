@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playwrite+IN&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body {
+    background: none;
+}
+h1, h4, p,
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(248,217,15);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.btn-light {
+    background: transparent;
+    color: #fff;
+}
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+.project {
+    background-color: rgb(203, 173, 240);
+}
+.items-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media screen and (max-width:1040px){
+    .items-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+   }
+.map-title {
+    padding-top: 80px;
+    text-align: center;
+    color: #222;
+}
+.map-container {
+    padding:  20px;
+    margin: 100px;
+}
+.raspisaniya {
+    display: block;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(188, 245, 226);
+}
+.mugalim-title {
+    text-align: center;
+    padding-top: 80px;
+    color: #222;
+}
+.raspisaniya img {
+  width: 900px;
+  height: 500px;
+  padding: 30px 50px;
+
+}
+.raspisaniya  h1 {
+    color: #222;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 29px;
+    z-index: 1;
+}
+.akrwedit-container {
+    padding: 80px;
+}
+.akrwedit-container img {
+    align-items: center;
+    padding-left: 250px;
+}
+@media screen and (max-width:1040px){
+    .raspisaniya img{
+        width: 400px;
+        height: 300px;
+    }
+   
+   }
+   @media screen and (max-width:1040px){
+    .akrwedit-container img{
+        width: 400px;
+        padding: 0;
+        
+    }
+   
+   }
