@@ -95,8 +95,12 @@
   .item-container {
     width: 100%;
     height: fit-content;
+    padding: 4px;
   }
   .item {
+    width: 200px;
+  }
+  .modal img {
     width: 200px;
   }
   .modal-content {

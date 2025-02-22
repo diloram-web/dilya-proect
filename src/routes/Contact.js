@@ -11,9 +11,10 @@ class Contact extends Component {
         return (
             <div>
                 <Navbar/>
-                <h1 className='map-title'>Биздин дарегибиз.Кыргыз Республикасы Баткен облусу Лейлек району Кайрагач айылы</h1>
                 <div className='map-container'>
                     
+                <h1 className='map-title'>Биздин дарегибиз.Кыргыз Республикасы Баткен облусу Лейлек району Кайрагач айылы</h1>
+               
                 <MapContainer center={position} zoom={13} style={{ height: "400px", width: "100%" }}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

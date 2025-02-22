@@ -30,10 +30,10 @@ const Administrasiya = () => {
       ))}
 
       {selectedItem && (
-        <div className="moda">
+        <div className="modal">
           <div className="modal-content">
             <button className="close-btn" onClick={handleClose}>X</button>
-            <img src={`./${selectedItem.img}`} alt={selectedItem.title} />
+            <img className="moda-img" src={`./${selectedItem.img}`} alt={selectedItem.title} />
             <h2 className="item-title">{selectedItem.title}</h2>
             <p>{selectedItem.desc}</p>
           </div>

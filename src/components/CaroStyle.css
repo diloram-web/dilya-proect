@@ -51,15 +51,16 @@
 
    @media (max-width: 1040px) {
     .carousel-section {
-      /* grid-template-columns: 1fr ; */
       flex-direction: column;
-      
+      width: 100%;
+      height: fit-content;
       
       
     }
     .carousel-section img {
-      width: 150px;
-      height: 250px;
+      width: 290px;
+      height: 300px;
+     
       
     
     }

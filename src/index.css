@@ -58,8 +58,20 @@ ul {
     color: #222;
 }
 .map-container {
-    padding:  20px;
-    margin: 100px;
+    width: 100%;
+    height: fit-content;
+    /* padding:  20px;
+    margin: 100px; */
+}
+@media screen and (max-width:1040px){
+    .map-title {
+        font-size: 1.2em;
+    }
+    .map-container {
+        width: 100%;
+        background-color: blueviolet;
+        padding: 0;
+    }
 }
 .raspisaniya {
     display: block;
@@ -75,7 +87,7 @@ ul {
 .raspisaniya img {
   width: 900px;
   height: 500px;
-  padding: 30px 50px;
+  padding: 20px;
 
 }
 .raspisaniya  h1 {
@@ -83,7 +95,7 @@ ul {
     text-align: center;
     padding-top: 10px;
     font-size: 29px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .akrwedit-container {
     padding: 50px;
@@ -93,16 +105,67 @@ ul {
     padding-left: 250px;
 }
 @media screen and (max-width:1040px){
-    .raspisaniya img{
-        width: 250px;
+.mektep-news  {
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+    width: 100%;
+    height: fit-content;
+    
+    
+}
+.mektep-jani {
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+.mektep-news img, video {
+    width: 220px;
+    height: fit-content;
+    padding-left: 0;
+}
+}
+.mektep-news {
+    width: 100%;
+    height: fit-content;
+    background: cornsilk;
+    /* background: url('./assets/a.fay.jpg') no-repeat center/cover; */
+    opacity: 1;
+
+    
+}
+
+.mektep-jani {
+    padding-top:  60px;
+    text-align: center;
+    color: rgb(233, 212, 212);
+    font: 1.5em sans-serif;
+    font-weight: 900;
+    background: #222;
+    opacity: 0.6;
+   
+}
+
+
+@media screen and (max-width:1040px){
+    .raspisaniya {
+        width: 100%;
         height: fit-content;
         align-items: center;
-        padding: 0;
-        margin: 0;
+        padding-left: 0;
+    
+        
+    }
+    .raspisaniya img {
+        width: 230px;
     }
    
    }
    @media screen and (max-width:1040px){
+    .akrwedit-container {
+        width: 100%;
+        height: fit-content;
+        padding: 5px;
+    }
     .akrwedit-container img{
         width: 200px;
         padding: 0;

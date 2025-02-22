@@ -97,18 +97,31 @@
   @media screen and (max-width:1040px){
     .ite img{
       width: 150px;
-      height: 200px;
+      height: 150px;
       padding: 0;
        
     } 
+    .admin-title {
+        font-size: 1.2em;
+    }
     .item-containe {
-        width: 300px;
+       max-width: 300px;
+       padding: 5px;
+       font-size: large;
+       font-weight: 400;
     }
     .ite {
         width: 200px;
     }
-    .modal-content {
-      max-width: 400px;
+    /* .moda {
+        max-width: 300px;
+    } */
+    .modal img {
+        width: 230px;
     }
+    .modal-content  {
+        width: 300px;
+    }
+    
     
    }
