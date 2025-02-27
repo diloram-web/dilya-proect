@@ -7,14 +7,15 @@ import Item from '../components/Item';
 // import Item from '../components/Item';
  //import ShowFullItem from '../components/ShowFullItem';
  const items= [
+  { id: 8, title: "Жумабоева Нодира", img: 'tar-z.jpeg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
     { id: 1, title: "Ахмадалиева Дилорам", img: 'dil.jpg', desc: 'математика мугалим', category: 'математика мугалим' },
-    { id: 2, title: "Мирзаматова Назира", img: 'sch1.jpg', desc: 'биология мугалим', category: 'биология мугалим' },
-    { id: 3, title: "Мирпозилова Дилором", img: 'sch1.jpg', desc: 'математика мугалим', category: 'математика мугалим' },
-    { id: 4, title: "Мирпозилова Дилнавоз", img: 'a.fay.jpg', desc: 'баштапгыч класс мугалим', category: 'баштапгыч класс мугалим' },
-    { id: 5, title: "Олпаизов Шухрат", img: 'a.fay.jpg', desc: 'ОРус тили мугалим', category: 'ОРус тили мугалим' },
+    { id: 2, title: "Сайдалиева Хуснида", img: 'husnida.jpeg', desc: 'Англис тили мугалим', category: 'Англис тили мугалим' },
+    { id: 3, title: "Курбанова Хуршида", img: 'hurshida.jpeg', desc: 'Баштапгыч класс мугалим', category: 'Баштапгыч класс мугалим' },
+    { id: 4, title: "Юсупова Севара", img: 'sevara.jpeg', desc: 'Тарых мугалим', category: 'Тарых мугалим' },
+    { id: 5, title: "Дилафруз Баротова", img: 'dilafruz.jpeg', desc: 'Баштапгыч класс мугалим', category: 'Баштапгыч класс мугалим' },
     { id: 6, title: "Абдунабиева Лола", img: 'a.fay.jpg', desc: 'Химия мугалим', category: 'Химия мугалим' },
     { id: 7, title: "Абдухамитова Дилрабо", img: 'a.fay.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
-    { id: 8, title: "Жумабоева Нодира", img: 'sch1.jpg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
+   
     { id: 9, title: "Сайитова Мархабо", img: 'dil.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
     { id: 10, title: "Ахмадалиева Дилорам", img: 'dil.jpg', desc: 'математика мугалим', category: 'математика мугалим' },
     { id: 11, title: "Мирзаматова Назира", img: 'sch1.jpg', desc: 'биология мугалим', category: 'биология мугалим' },
@@ -23,7 +24,7 @@ import Item from '../components/Item';
     { id: 14, title: "Олпаизов Шухрат", img: 'a.fay.jpg', desc: 'ОРус тили мугалим', category: 'ОРус тили мугалим' },
     { id: 15, title: "Абдунабиева Лола", img: 'a.fay.jpg', desc: 'Химия мугалим', category: 'Химия мугалим' },
     { id: 16, title: "Абдухамитова Дилрабо", img: 'a.fay.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
-    { id: 17, title: "Жумабоева Нодира", img: 'sch1.jpg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
+    { id: 17, title: "Жумабоева Нодира", img: 'tar-z.jpeg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
     { id: 18, title: "Сайитова Мархабо", img: 'dil.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
     { id: 19, title: "Ахмадалиева Дилорам", img: 'dil.jpg', desc: 'математика мугалим', category: 'математика мугалим' },
     { id: 20, title: "Мирзаматова Назира", img: 'sch1.jpg', desc: 'биология мугалим', category: 'биология мугалим' },
@@ -32,7 +33,7 @@ import Item from '../components/Item';
     { id: 23, title: "Олпаизов Шухрат", img: 'a.fay.jpg', desc: 'ОРус тили мугалим', category: 'ОРус тили мугалим' },
     { id: 24, title: "Абдунабиева Лола", img: 'a.fay.jpg', desc: 'Химия мугалим', category: 'Химия мугалим' },
     { id: 25, title: "Абдухамитова Дилрабо", img: 'a.fay.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
-    { id: 26, title: "Жумабоева Нодира", img: 'sch1.jpg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
+    { id: 26, title: "Жумабоева Нодира", img: 'tar-z.jpeg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
     { id: 27, title: "Сайитова Мархабо", img: 'dil.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
     { id: 28, title: "Ахмадалиева Дилорам", img: 'dil.jpg', desc: 'математика мугалим', category: 'математика мугалим' },
     { id: 29, title: "Мирзаматова Назира", img: 'sch1.jpg', desc: 'биология мугалим', category: 'биология мугалим' },
@@ -41,7 +42,7 @@ import Item from '../components/Item';
     { id: 32, title: "Олпаизов Шухрат", img: 'a.fay.jpg', desc: 'ОРус тили мугалим', category: 'ОРус тили мугалим' },
     { id: 33, title: "Абдунабиева Лола", img: 'a.fay.jpg', desc: 'Химия мугалим', category: 'Химия мугалим' },
     { id: 34, title: "Абдухамитова Дилрабо", img: 'a.fay.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
-    { id: 35, title: "Жумабоева Нодира", img: 'sch1.jpg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
+    { id: 35, title: "Жумабоева Нодира", img: 'tar-z.jpeg', desc: 'Озбек тили мугалим', category: 'Озбек тили мугалим' },
     { id: 36, title: "Сайитова Мархабо", img: 'dil.jpg', desc: 'кыргыз тили мугалим', category: 'кыргыз тили мугалим' },
   ];
 
