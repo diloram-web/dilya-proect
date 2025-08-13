@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             
                 <footer>
-                     <span className='logo'><FaSchool  className='icon-school'/>  А.Файзиев. </span>
+                     <span className='logo'><FaSchool  className='icon-school'/>  А.Momunov. </span>
                       Все право защищены &copy;2025year.Frontend devolopment :Akhmadalieva Diloram Usmanalievna.
                 </footer>  
         

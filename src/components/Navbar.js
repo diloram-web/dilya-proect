@@ -41,7 +41,7 @@ import {Link, useLocation} from "react-router-dom";
                 <Link to="/">
                 <div className="logo-flex">
                 <div className="logo-school"><FaSchool className="logo-school"/></div>
-                <h1 className="logo-title"> A.Fayziev</h1>
+                <h1 className="logo-title"> A.Momunov</h1>
                 </div>
              
                 </Link>

@@ -7,14 +7,14 @@ import "leaflet/dist/leaflet.css";
 class Contact extends Component {
     render() {
       
-        const position = [40.051485, 69.747641];
+        const position = [40.069770, 69.712394];
         return (
             <div>
                 <Navbar/>
                 <div className='map-container'>
                     
                 <h1 className='map-title'>Биздин дарегибиз.Кыргыз Республикасы Баткен облусу <br/>
-                Лейлек району Кайрагач айылы.<span>Teлефон номер:+996505551227</span></h1>
+                Лейлек району Эски-Оочу айылы.<span>Teлефон номер:+996505551227</span></h1>
                
                 <MapContainer center={position} zoom={13} style={{ height: "400px", width: "100%" }}>
       <TileLayer
@@ -24,7 +24,7 @@ class Contact extends Component {
       <Marker position={position}>
         <Popup>
         Биздин дарегибиз.Кыргыз Республикасы<br/>
-         Баткен облусу Лейлек району Кайрагач айылы
+         Баткен облусу Лейлек району Эски-Оочу айылы
         </Popup>
       </Marker>
     </MapContainer>
