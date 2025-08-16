@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./Administrasiya.css";
 
 const admens = [
-  { id: 1, title: "Холматова Интизорхон", img: "direc.jpeg", desc: "Мектеп директору" },
-  { id: 2, title: "Газибоев Лутфилло", img: "zavuch.jpeg", desc: "ОББ" },
-  { id: 3, title: "Жумабоева Нодира", img: "tar-z.jpeg", desc: "ДТИБОБ" },
+  { id: 1, title: "gggg", img: "a.fay.jpg", desc: "Мектеп директору" },
+  { id: 2, title: "ggg", img: "a.fay.jpg", desc: "ОББ" },
+  { id: 3, title: "jjj", img: "a.fay.jpg", desc: "ДТИБОБ" },
 ];
 
 const Administrasiya = () => {

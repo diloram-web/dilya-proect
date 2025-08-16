@@ -57,12 +57,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Caro= () => {
 
   const carouselImages = [
-    "carus1.jpeg",
-    "carus3.jpeg",
-    "olimp.jpg",
-    "carus3.jpeg",
-    "carus4.jpeg",
-    "carus5.jpeg",
+    "mektep.jpeg",
+    "mektep.ichi.jpeg",
+    "mektep.ashk.jpeg",
+    "mektep.jpeg",
+    "mektep.ichi.jpeg",
+    "mektep.ashk.jpeg",
+   
   ];
   console.log(carouselImages)
 

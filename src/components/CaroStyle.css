@@ -17,10 +17,10 @@
     background: #7adddd;
     overflow: hidden; */
   .caro-title {
-    color: rgb(30, 25, 25);
+    color:azure;
     padding-top: 20px;
     text-align: center;
-    background-color: lemonchiffon;
+    background-color:rgb(158, 193, 207)
   }
   .carousel-section {
     display: -webkit-box;
@@ -33,14 +33,14 @@
     -ms-flex-direction: row;
     flex-direction: row;
     padding: 60px;
-    background-color:lemonchiffon;
+    background-color: cyan;
     /* width: 100%; */
     height: fit-content
   
   }
   .carousel-section img {
-    width: 150px;
-    height: 500px;
+    width: 250px;
+    height: 400px;
     border-radius: 20px;
     opacity: 3;
     
