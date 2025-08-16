@@ -243,9 +243,14 @@ const Item = ({ item }) => {
                 <div className="modal">
                     <div className="modal-content">
                         <button className="close-btn" onClick={handleClose}>X</button>
+                           <img src={`./${item.imga}`} alt={item.title} />
                         <img src={`./${item.img}`} alt={item.title} />
+
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
+
+                      
+                         <a href="https://mugalim.edu.gov.kg/ru/candidate/112129">Link</a>
                     </div>
                 </div>
             )}
