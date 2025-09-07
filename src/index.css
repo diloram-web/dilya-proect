@@ -129,7 +129,7 @@ ul {
 .mektep-news {
     width: 100%;
     height: fit-content;
-    background: cornsilk;
+    background: rgb(229, 228, 223);
     /* background: url('./assets/a.fay.jpg') no-repeat center/cover; */
     opacity: 1;
 
@@ -139,10 +139,10 @@ ul {
 .mektep-jani {
     padding-top:  60px;
     text-align: center;
-    color: rgb(233, 212, 212);
+    color: rgb(28, 26, 26);
     font: 1.5em sans-serif;
     font-weight: 900;
-    background: #222;
+    background: white;
     opacity: 0.6;
    
 }

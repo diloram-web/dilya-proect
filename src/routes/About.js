@@ -13,7 +13,7 @@ const About =()=> {
                 <Navbar/>
                 <div className='mektep-news'>
                 <h1 className='mektep-jani'>Биздин Мектеп <br/>
-                  окуучу олимпиададан 2 орундун ээлеп облус туруна жолдонмо алды.</h1>
+                  окуучу </h1>
                   <img
           src={myImage}
           alt="Biz haqimizda"
@@ -27,7 +27,7 @@ const About =()=> {
         </video>
       </div>
       <div className='sinov'>
-        <h1  className='mektep-jani'>Биздин Мектеп Манас тануу боюнча 2 орунду алды.</h1>
+        <h1  className='mektep-jani'>Биздин Мектеп.</h1>
         <img
           src={myImag}
           alt="Biz haqimizda"
